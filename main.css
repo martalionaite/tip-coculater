@@ -1,0 +1,77 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa',
+        sans-serif;
+    margin-left: 3rem;
+    
+}
+body .container{
+    margin: 10rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20rem;
+    gap: 1rem;
+}
+.bill{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    gap: 1rem;
+  
+    
+}
+.word{
+    display:flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: self-start;
+    
+    gap: 1.4rem
+}
+.word1, .word2{
+    display:flex;
+    justify-content: start;
+    flex-direction: row;
+    font-size: 1rem;
+    align-items: self-start;
+}
+
+
+.rate{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 20rem;
+    font-size: 16px;
+    gap: 1rem;
+}
+.ratenumber{
+    width: 15rem;
+    font-size: 15px;
+}
+.btnresult{
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+}
+.btnscaicio{
+    background-color: rgb(174, 174, 177);
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 23px;
+    line-height: 30px;
+    width: 20rem;
+}
